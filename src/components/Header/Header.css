@@ -1,0 +1,10 @@
+.fotoImagen {
+  display: flex;
+  align-items: center;
+}
+
+.imagenPa {
+  border-radius: 100%;
+  height: 100px;
+  width: 100px;
+}
