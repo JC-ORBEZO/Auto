@@ -1,10 +1,98 @@
+/*IMAGEN*/
 .fotoImagen {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .imagenPa {
   border-radius: 100%;
   height: 100px;
   width: 100px;
+  border-left: 15px;
+}
+
+/*MENU PRINCIPAL*/
+.menuPrincipal {
+  display: flex;
+  /*justify-content: center;*/
+  justify-content: flex-end;
+  align-items: center;
+}
+
+Nav {
+  justify-content: center;
+  justify-content: center;
+}
+
+Nav.Item {
+  border-right: 2px;
+}
+
+/*TITULAR / PUESTO*/
+.Titular {
+  display: flex;
+  justify-content: start;
+}
+
+.Titular > p {
+  margin-top: 15px;
+  margin-left: 90px;
+}
+
+/*UBICACIÓN - ICONOS*/
+
+.Ubicacion {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.Ubicacion > span {
+  margin-left: 90px;
+  color: black;
+}
+
+.Ubicacion > span > i {
+  color: red;
+  /*margin-right: 5px;*/
+}
+
+.Iconos {
+  display: flex;
+  justify-content: center;
+}
+
+.Iconos > span {
+  margin-left: 25px;
+  height: 20px;
+  justify-content: center;
+  justify-content: center;
+}
+
+.Iconos > span > i {
+  font-size: x-large;
+}
+
+.instagram {
+  color: rgb(230, 4, 230);
+}
+
+.linkedin {
+  color: blue;
+}
+
+.twitter {
+  color: #006eff;
+}
+
+.youtube {
+  color: red;
+}
+
+.overflow {
+  color: orange;
+}
+
+.git {
+  color: #006effd2;
 }

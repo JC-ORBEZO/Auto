@@ -1,0 +1,25 @@
+p {
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+}
+
+.item1 {
+  border-left: 4px solid rgb(214, 204, 62);
+  padding-left: 4px;
+}
+
+.card1 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card2 {
+  display: flex;
+  justify-content: center;
+}
+
+.card3 {
+  display: flex;
+  justify-content: flex-start;
+}
