@@ -18,10 +18,10 @@ const iconos=[
     const items=[
     {id:shortId.generate(),name:"Ta-Te-Ti",url:"https://distracted-mcnulty-147d23.netlify.app/"},
     {id:shortId.generate(),name:"Calculator",url:"https://keen-franklin-c5322e.netlify.app/"},
-    {id:shortId.generate(),name:"Uses",url:"https://keen-curie-ec1ff5.netlify.app/"},
     {id:shortId.generate(),name:"Portafolio",url:"https://github.com/JC-ORBEZO"},
-    {id:shortId.generate(),name:"Charlas",url:"https://keen-curie-ec1ff5.netlify.app/"},
-    {id:shortId.generate(),name:"Contacto",url:"https://keen-curie-ec1ff5.netlify.app/"}];
+    {id:shortId.generate(),name:"Uses",url:"https://jc-orbezo.netlify.app/"},
+    {id:shortId.generate(),name:"Charlas",url:"https://jc-orbezo.netlify.app/"},
+    {id:shortId.generate(),name:"Contacto",url:"https://jc-orbezo.netlify.app/"}];
 const Header = React.memo((props) => {
     const {titulo,imagene}=props;
     return ( 
