@@ -62,6 +62,13 @@ Nav.Item {
   justify-content: center;
 }
 
+.Iconos > p {
+  margin-left: 25px;
+  height: 20px;
+  justify-content: center;
+  justify-content: center;
+}
+
 .Iconos > span {
   margin-left: 25px;
   height: 20px;
@@ -78,7 +85,7 @@ Nav.Item {
 }
 
 .linkedin {
-  color: blue;
+  color: rgb(42, 115, 233);
 }
 
 .twitter {
