@@ -4,6 +4,7 @@ import "./Header.css";
 import {Container,Row,Col,Nav} from "react-bootstrap";
 import shortId from "short-id";
 //const pestañas=[];
+/*
 const iconos=[
     {id:shortId.generate(),url: "fab fa-instagram",name:"instagram",href:"https://github.com/JC-ORBEZO"},
     {id:shortId.generate(),url:"fab fa-twitter",name:"twitter",href:"https://github.com/JC-ORBEZO"},
@@ -13,7 +14,8 @@ const iconos=[
     {id:shortId.generate(),url:"fab fa-stack-overflow",name:"overflow",href:"https://github.com/JC-ORBEZO"},
     {id:shortId.generate(),url:"fab fa-stack-overflow",name:"overflow",href:"https://github.com/JC-ORBEZO"},
     {id:shortId.generate(),url:"fab fa-stack-overflow",name:"overflow",href:"https://github.com/JC-ORBEZO"}];
-const items=[
+*/
+    const items=[
     {id:shortId.generate(),name:"Ta-Te-Ti",url:"https://distracted-mcnulty-147d23.netlify.app/"},
     {id:shortId.generate(),name:"Calculator",url:"https://keen-franklin-c5322e.netlify.app/"},
     {id:shortId.generate(),name:"Uses",url:"/home"},

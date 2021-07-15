@@ -26,7 +26,7 @@ const Main = () => {
             </Row>
             {/*   */}               
             <Row className="justify-content-center">
-            {proyectos.map(proyecto=><Col md={4}  className={proyecto.card}>
+            {proyectos.map(proyecto=><Col md={4}  className={proyecto.card} key={proyecto.id}>
                     <Card style={{ width: '18rem' }} className="mt-4">
                         <Card.Img variant="top" src={proyecto.url} />
                         <Card.Body>
