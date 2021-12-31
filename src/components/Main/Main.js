@@ -3,14 +3,18 @@ import shortId from "short-id";
 import "./Main.css";
 /** */
 const proyectos=[
-{id:shortId.generate(),card:"card1",url:"https://cdn.pixabay.com/photo/2015/10/12/15/18/store-984393_960_720.jpg",name:"Clothing Store",description:"Sistema de gestión de una tienda de ropa con POO en C++",documentation:"https://github.com/JC-ORBEZO/StoreClothing"},
-{id:shortId.generate(),card:"card2",url:"https://media.istockphoto.com/photos/top-view-of-tic-tac-toe-game-on-wooden-toy-blocks-against-orange-picture-id1208578184?k=6&m=1208578184&s=612x612&w=0&h=N2bIUq7qHUKcmOq2-pbsNR3wNGtoYPvySad9JvTIZZk=",name:"Ta-Te-Ti",description:"Juego práctico para ejercitar eventos con JavaScript",documentation:"https://github.com/JC-ORBEZO/TATETI"}, 
-{id:shortId.generate(),card:"card3",url:"https://cdn.pixabay.com/photo/2017/07/27/14/36/calculator-2545542_960_720.jpg",name:"Calculator",description:"Ejercicio de eventos y POO en JavaScript",documentation:"https://github.com/JC-ORBEZO/CALCULATOR"}
+{id:shortId.generate(),card:"card4",url:"https://media.istockphoto.com/photos/smartphones-on-the-counter-of-a-electronics-store-picture-id1138251272?k=20&m=1138251272&s=612x612&w=0&h=ajF0OuxTslr8Z79CJqS0nG9JTTbOuBGfrKnuIzmsgGs=",name:"Shop Gestor",description:"WinForm .Net Framework / C# / SQL-Server - Sistema Gestor de tienda artículos electrónicos",documentation:"https://github.com/JC-ORBEZO/CALCULATOR"},
+{id:shortId.generate(),card:"card5",url:"https://media.istockphoto.com/photos/shopping-online-concept-shopping-service-on-the-online-web-with-by-picture-id1133980246?k=20&m=1133980246&s=612x612&w=0&h=bwut2YUV7gtnjrv354523xU_9S-TtKQOqGTdiGMsPfs=",name:"Ecommerce",description:"Asp.Net Framework Formulario Web / C# / SQL-Server - Aplicación Web Ecommerce.",documentation:"https://github.com/JC-ORBEZO/"},
+{id:shortId.generate(),card:"card6",url:"https://media.istockphoto.com/photos/online-live-video-marketing-concept-picture-id1145887344?k=20&m=1145887344&s=612x612&w=0&h=_O9xkA19V_boKeMgaNwbabIIleeSdN7tdqRBapxP35I=",name:"Web App Movie",description:"Ejercitación para repasar conceptos de React. Muestra y selección de Películas.",documentation:"https://github.com/JC-ORBEZO/"},
+{id:shortId.generate(),card:"card7",url:"https://media.istockphoto.com/photos/abstract-blurred-background-of-department-store-picture-id689911172?k=20&m=689911172&s=612x612&w=0&h=HIcAL3tAFabtp60_nc4Y2TGR_QYosAmXjRFp1Ds5jgA=",name:"Clothing Store",description:"C / C++ / POO - Sistema de gestión de una tienda de ropa",documentation:"https://github.com/JC-ORBEZO/StoreClothing"},
+{id:shortId.generate(),card:"card8",url:"https://media.istockphoto.com/photos/top-view-of-tic-tac-toe-game-on-wooden-toy-blocks-against-orange-picture-id1208578184?k=6&m=1208578184&s=612x612&w=0&h=N2bIUq7qHUKcmOq2-pbsNR3wNGtoYPvySad9JvTIZZk=",name:"Ta-Te-Ti",description:"Html / Css / JavaScript - Juego práctico para ejercitar eventos en JS.",documentation:"https://github.com/JC-ORBEZO/TATETI"}, 
+{id:shortId.generate(),card:"card9",url:"https://cdn.pixabay.com/photo/2017/07/27/14/36/calculator-2545542_960_720.jpg",name:"Calculator",description:"Html / Css / JS - Ejercicio de eventos y POO en JavaScript",documentation:"https://github.com/JC-ORBEZO/CALCULATOR"},
+{id:shortId.generate(),card:"card10",url:"https://media.istockphoto.com/photos/checklist-picture-id1168750663?k=20&m=1168750663&s=612x612&w=0&h=mka7rBZRLnI2Ib8yT_h7Lf_sxLcIrm_6HE6bQ_u_HZc=",name:"Todo List",description:"Ejercicio con React - App Registro de Tareas",documentation:""}
 ];
 
 const Main = () => {
     return (
-        <Container className="mt-5">
+        <Container fluid className="mt-5">
             <Row className="justify-content-center">                
                 <Col md={7} xs={12}>
                     <h1>Sobre mí</h1>
@@ -23,19 +27,17 @@ const Main = () => {
                         crecimiento en el sector IT.</p>
                     <h2 className="mt-5 item1">Programar y Aprender</h2>
                 </Col>
-            </Row>
-            {/*   */}               
+            </Row>             
             <Row className="justify-content-center">
             {proyectos.map(proyecto=><Col md={4}  className={proyecto.card} key={proyecto.id}>
-                    <Card style={{ width: '18rem' }} className="mt-4">
-                        <Card.Img variant="top" src={proyecto.url} />
+                    <Card style={{ width: '25rem',display:'flex'}} className="mt-4">
+                        <Card.Img variant="top" src={proyecto.url}/>
                         <Card.Body>
                             <Card.Title>{proyecto.name}</Card.Title>
                             <Card.Text>
                                 {proyecto.description}
                             </Card.Text>
-                            <Button variant="primary" href={proyecto.documentation}>Documentación</Button>
-                                                        
+                            <Button variant="primary" href={proyecto.documentation}>Documentación</Button>                                                        
                         </Card.Body>
                     </Card>
                 </Col>)} 

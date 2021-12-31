@@ -33,8 +33,7 @@ const Header = React.memo((props) => {
         </Col>   
         <Col md={6} xs={12} className="menuPrincipal">
             <Nav
-                activeKey="/home"
-                onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
+                
             >
                 {items.map(item=>
                 <Nav.Item key={item.id}>
