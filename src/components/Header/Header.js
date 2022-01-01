@@ -32,13 +32,11 @@ const Header = React.memo((props) => {
             <h2>{titulo}</h2>
         </Col>   
         <Col md={6} xs={12} className="menuPrincipal">
-            <Nav
-                
-            >
-                {items.map(item=>
+            <Nav>
+                {/*items.map(item=>
                 <Nav.Item key={item.id}>
                     <Nav.Link href={item.url} className="text-primary">{item.name}</Nav.Link>
-                </Nav.Item>)}                
+                </Nav.Item>)*/}                
             </Nav>
         </Col>
         <Col md={12} className="Titular">        
