@@ -16,17 +16,22 @@ justify-content:space-around;
 `;
 
 function Footer() {
-    return (
-        <AppContainer>
-            <AppRow className="justify-content-center mt-5">
-                <AppCol md={6}>
-                    <a href="https://github.com/" className="text-dark"><i className="fab fa-github"></i></a>
+    /*
+    <a href="https://github.com/" className="text-dark"><i className="fab fa-github"></i></a>
                     <a href="https://www.facebook.com/" className="text-primary"><i className="fab fa-facebook-square"></i></a>
                     <a href="https://www.instagram.com/" className="text-danger"><i className="fab fa-instagram"></i></a>
                     <a href="https://twitter.com/home" className="text-primary"><i className="fab fa-twitter"></i></a>
                     <a href="https://www.twitch.tv/" className="text-secondary"><i className="fab fa-twitch"></i></a>
                     <a href="https://www.youtube.com/" className="text-danger"><i className="fab fa-youtube"></i></a>
                     <a href="https://www.linkedin.com/feed/" className="text-primary"><i className="fab fa-linkedin-in"></i></a>
+    
+    */
+    return (
+        <AppContainer>
+            <AppRow className="justify-content-center mt-5">
+                <AppCol md={1}>
+                    <a href="https://github.com/JC-ORBEZO" className="text-dark"><i className="fab fa-github"></i></a>                    
+                    <a href="https://www.linkedin.com/in/jose-orbezo" className="text-primary"><i className="fab fa-linkedin-in"></i></a>
                 </AppCol>
             </AppRow>
         </AppContainer>

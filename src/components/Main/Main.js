@@ -22,10 +22,10 @@ const Main = () => {
                     fundamentos lógicos con lenguajes de programación orientado a objetos como C/C++ en Code::Blocks y C# en el entorno .Net Framework (WinForms y Asp.Net - Formularios Web).
                     Además del manejo de Bases de Datos relacionales con SQL.</p>
                     <p>
-                    También, he participado de cursos libres en Desarrollo Web Frontend y tengo conocimientos de Html, CSS y Javascript.                         
+                    También, he participado de cursos libres en Desarrollo Web Frontend y tengo conocimientos de Html, CSS, Javascript y fundamentos en React.                         
                     Por lo que actualmente busco activamente participar en proyectos reales y ampliar mis conocimientos prácticos para así seguir impulsando mi 
                     crecimiento en el sector IT.</p>    
-                    <h2 className="mt-5 item1">Programar y Aprender</h2>
+                    <h2 className="mt-5 item1">Repositorio</h2>
                 </Col>
             </Row>             
             <Row className="justify-content-center">
@@ -45,11 +45,10 @@ const Main = () => {
             <Row className="justify-content-center" >                
                 <Col md={10} xs={12}>                    
                     <h2 className="mt-5 item1" >Proyectos en curso</h2>
-                    <p className="mt-3" >Actualmente me encuentro repasando y ampliando conceptos de SQL-Server, aprendiendo la sintaxis 
-                    de C# en .Net ya que es lo que voy a llevar el próximo cuatrimestre, AGOSTO - NOVIEMBRE 2021, en la tecnicatura. Al
-                    venir de un lenguaje como C++ tengo mucho a favor al aprender la sintaxis de C#. 
-                    Por otro lado y con la excusa de aprender una tecnología de moda como la biblioteca React, repaso conceptos de HTML,
-                    CSS Y JAVASCRIPT.</p>
+                    <p className="mt-3" >Actualmente me encuentro repasando y profundizando conocimientos en React, entendiendo el 
+                    funcionamiento de Asp.Net Core 5 con MVC. Que son tecnologías bastante solicitadas en el mercado laboral. Y en busqueda de integrarme 
+                    y acelerar mi aprendizaje en una empresa que trabaje con estas tecnologías. 
+                    </p>
                 </Col>
             </Row>             
         </Container>
