@@ -1,7 +1,6 @@
 import { Container,Row,Col,Card,Button} from "react-bootstrap";
 import shortId from "short-id";
 import "./Main.css";
-/** */
 const proyectos=[
 {id:shortId.generate(),card:"card4",url:"https://media.istockphoto.com/photos/smartphones-on-the-counter-of-a-electronics-store-picture-id1138251272?k=20&m=1138251272&s=612x612&w=0&h=ajF0OuxTslr8Z79CJqS0nG9JTTbOuBGfrKnuIzmsgGs=",name:"Shop Gestor",description:"WinForm .Net Framework / C# / SQL-Server - Sistema Gestor de tienda artículos electrónicos",documentation:"https://github.com/Ant1Dot0/tpi1-orbezo-LiclaCisneros"},
 {id:shortId.generate(),card:"card5",url:"https://media.istockphoto.com/photos/shopping-online-concept-shopping-service-on-the-online-web-with-by-picture-id1133980246?k=20&m=1133980246&s=612x612&w=0&h=bwut2YUV7gtnjrv354523xU_9S-TtKQOqGTdiGMsPfs=",name:"Ecommerce",description:"Asp.Net Framework Formulario Web / C# / SQL-Server - Aplicación Web Ecommerce.",documentation:"https://github.com/JC-ORBEZO/WebAppEcommerce"},
@@ -52,7 +51,6 @@ const Main = () => {
                 </Col>
             </Row>             
         </Container>
-      );
-}
+      );}
  
 export default Main;
