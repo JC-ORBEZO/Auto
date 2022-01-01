@@ -18,13 +18,13 @@ const Main = () => {
             <Row className="justify-content-center">                
                 <Col md={10} xs={12}>
                     <h1>Sobre mí</h1>
-                    <p>Soy estudiante en UTN - FRGP, donde he adquirido
-                        conocimientos base, así como también en el paradigma de programación 
-                        orientada a objetos en C++. Complementario a la cursada en la facultad
-                        he participado de cursos libres en Desarrollo Web (HTML, CSS y JAVASCRIPT). 
-                        Considero tengo una buena base como para adaptarme con facilidad, por lo que actualmente busco 
-                        activamente ampliar mis conocimientos prácticos para así seguir impulsando mi 
-                        crecimiento en el sector IT.</p>
+                    <p>Soy estudiante avanzado de la Tecnicatura Universitaria en Programación en UTN, donde he adquirido
+                    fundamentos lógicos con lenguajes de programación orientado a objetos como C/C++ en Code::Blocks y C# en el entorno .Net Framework (WinForms y Asp.Net - Formularios Web).
+                    Además del manejo de Bases de Datos relacionales con SQL.</p>
+                    <p>
+                    También, he participado de cursos libres en Desarrollo Web Frontend y tengo conocimientos de Html, CSS y Javascript.                         
+                    Por lo que actualmente busco activamente participar en proyectos reales y ampliar mis conocimientos prácticos para así seguir impulsando mi 
+                    crecimiento en el sector IT.</p>    
                     <h2 className="mt-5 item1">Programar y Aprender</h2>
                 </Col>
             </Row>             
@@ -37,7 +37,7 @@ const Main = () => {
                             <Card.Text>
                                 {proyecto.description}
                             </Card.Text>
-                            <Button variant="primary" href={proyecto.documentation}>Documentación</Button>                                                        
+                            <Button variant="primary" href={proyecto.documentation}>Repositorio</Button>                                                        
                         </Card.Body>
                     </Card>
                 </Col>)} 
